@@ -1,0 +1,8 @@
+{
+	"name": "basket.js testings",
+	"version": "1.0",
+	"dependencies": {
+		"basket.js": "~0.3.0",
+		"jquery": "~2.1.0"
+	}
+}

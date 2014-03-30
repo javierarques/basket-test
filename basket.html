@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Testing Basket.js</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<script src="bower_components/rsvp/rsvp.js"></script>
+	<script src="bower_components/basket.js/dist/basket.js"></script>
+	
+	<h1>Hola amigos</h1>
+	
+	<script>
+		basket
+			.require({ url: 'bower_components/jquery/dist/jquery.min.js' })
+			.then( function () {
+				basket.require( { url: 'main.js', unique: 123});
+			});
+	</script>
+
+</body>
+</html>
